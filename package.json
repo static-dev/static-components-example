@@ -1,0 +1,32 @@
+{
+  "name": "static-components-example",
+  "description": "a cool example",
+  "version": "0.0.1",
+  "author": "Jeff Escalante",
+  "bugs": "https://github.com/jescalan/static-components-example/issues",
+  "dependencies": {
+    "babel-preset-preact": "^1.1.0",
+    "babel-register": "^6.24.1",
+    "preact": "^8.1.0",
+    "reshape-preact-components": "^0.5.1",
+    "reshape-standard": "^1.0.0",
+    "spike": "^1.3.1",
+    "spike-css-standards": "^1.0.0",
+    "spike-js-standards": "^2.0.1",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "snazzy": "^6.0.0",
+    "standard": "^10.0.0"
+  },
+  "homepage": "https://github.com/jescalan/static-components-example",
+  "main": "app.js",
+  "private": true,
+  "repository": "https://github.com/jescalan/static-components-example",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "start": "spike watch",
+    "build": "spike compile"
+  }
+}
